@@ -56,6 +56,8 @@ public class MasterMsgTypes
         public int players;
     }
 
+
+
 	public class RequestHostListMessage : MessageBase
 	{
 		public string gameTypeName;
