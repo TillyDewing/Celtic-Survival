@@ -35,7 +35,7 @@ public class Builder : NetworkBehaviour
                 placeableObject.transform.position = hit.point + placeableObject.posOffSet;
                 placeableObject.transform.rotation = transform.rotation;
 
-                if (Input.GetMouseButtonDown(1))
+                if (Input.GetMouseButtonDown(1) && placeableObject.canPlace)
                 {
                     PlaceObject();
                 }
